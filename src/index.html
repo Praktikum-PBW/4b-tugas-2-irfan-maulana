@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas 2.5 | Irfan Maulana</title>
+</head>
+
+<body>
+
+    <div style="width: 100%; height: 50px; background-color: rgb(13, 192, 192); box-shadow: 2px 2px 7px grey; padding-inline: 100px; position: fixed; top: 0;">
+        <p style="font-family: p-medium; font-size: 20px; color: white; text-align: left; margin-top: 8px; ">Irfan Maulana (2010631170013)</p>
+    </div>
+
+    <h1 class="header">Pendaftaran Mahasiswa Baru</h1>
+
+    <!-- 1 Form -->
+    <div class="container-1">
+        <form action="/action_page.php">
+            <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+            <input type="text" id="npm" name="NPM" placeholder="Masukan NPM Anda">
+        </form>
+
+        <form action="">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="namaLengkap" placeholder="Nama Lengkap">
+        </form>
+
+        <form action="">
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" rows="4">Alamat...</textarea>
+        </form>
+
+        <div style="margin-top: 20px;">
+            <p style="font-family: p-regular; margin-bottom: -0px;">Jenis Kelamin</p>
+            <div>
+                <input type="radio" id="Laki-laki" name="jk" value="Laki-laki" checked>
+                <label for="Laki-laki">Laki-laki</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Perempuan" name="jk" value="Perempuan">
+                <label for="Perempuan">Perempuan</label>
+            </div>
+        </div>
+
+        <form action="">
+            <label for="prodi">Program Studi</label>
+            <select name="prodi" id="prodi">
+                <option value="ti">Teknik Informatika</option>
+                <option value="si">Sistem Informasi</option>
+            </select>
+        </form>
+
+
+        <button class="btn-tambah">Tambah</button>
+    </div>
+
+
+
+
+    <h1 class="header">Tabel Nilai Mahasiswa</h1>
+    
+    <div>
+        <table class="tg" style=" table-layout: fixed; width: 1181px, fit-content; margin-left: 100px; margin-bottom: 50px;">
+            <colgroup>
+            <col style="width: 182px">
+            <col style="width: 157px">
+            <col style="width: 37px">
+            <col style="width: 32px">
+            <col style="width: 33px">
+            <col style="width: 35px">
+            <col style="width: 34px">
+            <col style="width: 37px">
+            <col style="width: 33px">
+            <col style="width: 34px">
+            <col style="width: 37px">
+            <col style="width: 36px">
+            <col style="width: 43px">
+            <col style="width: 38px">
+            <col style="width: 37px">
+            <col style="width: 41px">
+            <col style="width: 35px">
+            <col style="width: 38px">
+            <col style="width: 35px">
+            <col style="width: 35px">
+            <col style="width: 34px">
+            <col style="width: 43px">
+            <col style="width: 57px">
+            <col style="width: 58px">
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="tg-f4mc" rowspan="2">NPM</th>
+                <th class="tg-jqku" rowspan="2">Nama Lengkap</th>
+                <th class="tg-958c" colspan="10">Absen</th>
+                <th class="tg-958c" colspan="10">Tugas</th>
+                <th class="tg-f4mc" rowspan="2">UTS</th>
+                <th class="tg-f4mc" rowspan="2">UAS</th>
+              </tr>
+              <tr>
+                <th class="tg-bolj">1</th>
+                <th class="tg-bolj">2</th>
+                <th class="tg-bolj">3</th>
+                <th class="tg-bolj">4</th>
+                <th class="tg-bolj">5</th>
+                <th class="tg-bolj">6</th>
+                <th class="tg-bolj">7</th>
+                <th class="tg-bolj">8</th>
+                <th class="tg-bolj">9</th>
+                <th class="tg-bolj">19</th>
+                <th class="tg-bolj">1</th>
+                <th class="tg-bolj">2</th>
+                <th class="tg-bolj">3</th>
+                <th class="tg-bolj">4</th>
+                <th class="tg-bolj">5</th>
+                <th class="tg-bolj">6</th>
+                <th class="tg-bolj">7</th>
+                <th class="tg-bolj">8</th>
+                <th class="tg-bolj">9</th>
+                <th class="tg-bolj">10</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-c3ow">201119000</td>
+                <td class="tg-0pky">Abdul Uzumaki</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">88</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">99</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+              </tr>
+              <tr>
+                <td class="tg-c3ow">201119023</td>
+                <td class="tg-0pky">Hatake Udin</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">78</td>
+                <td class="tg-c3ow">98</td>
+                <td class="tg-c3ow">87</td>
+                <td class="tg-c3ow">98</td>
+                <td class="tg-c3ow">78</td>
+                <td class="tg-c3ow">78</td>
+                <td class="tg-c3ow">98</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">87</td>
+                <td class="tg-c3ow">88</td>
+                <td class="tg-c3ow">88</td>
+              </tr>
+              <tr>
+                <td class="tg-c3ow">20111880</td>
+                <td class="tg-0pky">Firda Sensei</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">78</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">78</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">88</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+              </tr>
+              <tr>
+                <td class="tg-c3ow">201119011</td>
+                <td class="tg-0pky">Uciha Sanusi</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">78</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+              </tr>
+              <tr>
+                <td class="tg-c3ow">201119990</td>
+                <td class="tg-0pky">Sarip Arumi</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">H</td>
+                <td class="tg-c3ow">A</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">89</td>
+                <td class="tg-c3ow">87</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">87</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">88</td>
+                <td class="tg-c3ow">90</td>
+                <td class="tg-c3ow">90</td>
+              </tr>
+            </tbody>
+            </table>
+
+      <H1 class="header">My Galery Photo</H1>
+      <div style="inset: block; margin: auto; width: 80%;">
+        <img src="/src/img/img1.jpeg" alt=""> 
+        <img src="/src/img/img2.jpeg" alt=""> 
+        <img src="/src/img/img3.jpeg" alt=""> 
+      </div>
+      <div style="inset: block; margin: auto; width: 80%;">
+        <img src="/src/img/img4.jpeg" alt=""> 
+        <img src="/src/img/img3.jpeg" alt=""> 
+        <img src="/src/img/img1.jpeg" alt=""> 
+      </div>
+
+    </div>
+
+    <div style="width: 100%; height: 80px; background-color: rgb(13, 192, 192); box-shadow: 2px 2px 7px grey;  bottom: 0; "> 
+      <p style="font-family: p-medium; font-size: 16px; color: white; text-align: center;  padding-top: 30px;">Tugas Praktikum Pemrograman Berbasis Web</p>
+  </div>
+
+</body>
+
+</html>
